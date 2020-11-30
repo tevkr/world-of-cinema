@@ -1,0 +1,1 @@
+var categoryArray = new Array();

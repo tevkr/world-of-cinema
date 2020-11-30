@@ -1,0 +1,157 @@
+@media (max-width: 992px) {
+	.film_info_imgdesc {
+		flex-flow: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.film_info_desc {
+		padding-left: 0px;
+	}
+	.film-nameRu {
+		font-size: 3em;
+	}
+	.imgdesc_img_block {
+		margin-bottom: 15px;
+	}
+}
+
+
+@media (max-width: 768px) {
+	body {
+		min-height: calc(100vh - 20px);
+		padding: 10px;
+	}
+	.menu {
+		display: none;
+	}
+	.menu-mobile-header {
+		display: flex;
+	}
+	.wrap {
+		width: calc(100% - 30px);
+		min-height: calc(100vh - 120px);
+		margin: 0px;
+		margin-top: 70px;
+		padding: 15px;
+	}
+	.wrap_film_info {
+		padding: 0px;
+		width: 100%;
+		min-height: calc(100vh - 90px);
+	}
+	.film_block_bg {
+		padding-top: 70%;
+	}
+	.film_block_bg_img {
+		top: -50%;
+		left: -50%;
+		right: -50%;
+		bottom: -50%;
+	}
+	.title {
+		font-size: 200%;
+	}
+	.film_info_imgdesc {
+		justify-content: center;
+	}
+	.film_block_bg {
+		min-width: 100%;
+		padding-top: 100%;
+	}
+	
+	.film_block_bg_img {
+		width: 101%;
+		top: 0%;
+		left: 0%;
+		right: 0%;
+		bottom: 0%;
+	}
+	.film-about-item {
+		flex-flow: column;
+	}
+	.about-developer {
+		display: none;
+	}
+}
+
+
+
+@media (max-width: 576px) {
+	.imgdesc_img_block {
+		min-width: 90%;
+    	padding-top: 135%;
+	}
+	.imgdesc_img {
+		top: 0%;
+	}
+	.film-nameRu {
+		font-size: 2em;
+	}
+	.banner-title
+	{
+		font-size: 35px;
+	}
+}
+
+
+@media (min-width: 576px) {
+	.imgdesc_img_block {
+		min-width: 65%;
+		padding-top: 98%;
+	}
+	.imgdesc_img {
+		top: 0%;
+	}
+	.banner-title
+	{
+		font-size: 40px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.wrap {
+		opacity: 1 !important;
+	}
+	.imgdesc_img_block {
+		min-width: calc(100% / 2);
+		padding-top: 75%;
+	}
+	.imgdesc_img {
+		top: -1%;
+	}
+	.banner-title
+	{
+		font-size: 40px;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.imgdesc_img_block {
+		min-width: calc(100% / 3);
+		padding-top: 50%;
+	}
+	.imgdesc_img {
+		top: 0%;
+	}
+		.banner-title
+	{
+		font-size: 48px;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.imgdesc_img_block {
+		min-width: calc(100% / 4);
+		padding-top: 38%;
+	}
+	.imgdesc_img {
+		top: 0%;
+	}
+	.banner-title
+	{
+		font-size: 50px;
+	}
+}
