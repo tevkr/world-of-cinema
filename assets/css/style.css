@@ -179,16 +179,32 @@ body {
 	background-image: url(../img/home.svg);
 }
 
+.active-item .menu-list-item-icon.home-icon {
+	background-image: url(../img/home-active.svg);
+}
+
 .menu-list-item-icon.categories-icon {
 	background-image: url(../img/categories.svg);
+}
+
+.active-item .menu-list-item-icon.categories-icon {
+	background-image: url(../img/categories-active.svg);
 }
 
 .menu-list-item-icon.articles-icon {
 	background-image: url(../img/article.svg);
 }
 
+.active-item .menu-list-item-icon.articles-icon {
+	background-image: url(../img/article-active.svg);
+}
+
 .menu-list-item-icon.info-icon {
 	background-image: url(../img/info.svg);
+}
+
+.active-item .menu-list-item-icon.info-icon {
+	background-image: url(../img/info-active.svg);
 }
 
 body.mobile-menu-open {
